@@ -1,7 +1,6 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
 let shaPassword = '08f32643dbdacf81d0d511f1ee24b06de759e90f8edf742bbdc57d88';
-const proxyIPs = ["workers.cloudflare.cyou"];
 const proxyIPs = [
 	'cf.090227.xyz:443,
 	'time.is',
@@ -14,6 +13,7 @@ const proxyIPs = [
         'dnschecker.org' ,
         'tasteatlas.com',
          'ip.sb',
+	 'workers.cloudflare.cyou',
 	'[2606:4700:e7:25:4b9:f8f8:9bfb:774a]',
 ];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
