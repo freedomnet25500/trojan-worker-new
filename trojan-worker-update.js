@@ -2,7 +2,7 @@
 import { connect } from "cloudflare:sockets";
 let shaPassword = '08f32643dbdacf81d0d511f1ee24b06de759e90f8edf742bbdc57d88';
 const proxyIPs = [
-	'cf.090227.xyz:443,
+	'cf.090227.xyz:443',
 	'time.is',
 	'www.visa.com.sg',
 	'skk.moe',
